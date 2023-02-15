@@ -9,7 +9,7 @@ export default function App() {
   const [movies, setMovies] = useState([]);
   const [inputValue, setInputValue] = useState("");
   const [loading, setLoading] = useState(false);
-  const apiUrl = "http://www.omdbapi.com?apikey=e90fed93";
+  const apiUrl = "https://www.omdbapi.com?apikey=e90fed93";
   const getApiData = (title) => {
     setLoading(true);
     return fetch(`${apiUrl}&s=${title}`)
