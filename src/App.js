@@ -21,7 +21,7 @@ export default function App() {
       });
   };
   useEffect(() => {
-    getApiData("spiderman");
+    getApiData("bat");
   }, []);
   return (
     <>
